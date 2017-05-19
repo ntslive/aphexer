@@ -1,0 +1,26 @@
+{
+  "name": "aphexer",
+  "version": "0.0.1",
+  "description": "Aphex my image",
+  "scripts": {
+    "start": "node app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nts/aphexer.git"
+  },
+  "author": "Jamie Burke <jamie@ntslive.co.uk>, Andi Studer <andi@ntslive.co.uk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nts/aphexer/issues"
+  },
+  "homepage": "https://github.com/nts/aphexer#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-formidable": "^1.0.0",
+    "faced": "^1.2.0",
+    "jimp": "^0.2.27",
+    "path": "^0.12.7"
+  }
+}
